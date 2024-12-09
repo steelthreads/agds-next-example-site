@@ -7,16 +7,16 @@
   resolved "https://registry.yarnpkg.com/@adobe/css-tools/-/css-tools-4.4.1.tgz#2447a230bfe072c1659e6815129c03cf170710e3"
   integrity sha512-12WGKBQzjUAI4ayyF4IAtfw2QR/IDoqk6jTddXDhtYTJF9ASmoE1zst7cVtP0aL/F1jUJL5r+JxKXKEgHNbEUQ==
 
-"@ag.ds-next/react@^1.7.0":
-  version "1.24.0"
-  resolved "https://registry.yarnpkg.com/@ag.ds-next/react/-/react-1.24.0.tgz#7ffb64d263b982d9d929fc728a9653638c5bc238"
-  integrity sha512-H6W75g4xTf/lL65N1uYnQkbSQQGwYLO2ZL+HkbeYLtAxwKP8vYvwzOnP2MVwki+75AxUCUKS4BPfsNk2DaK53w==
+"@ag.ds-next/react@^1.25.0":
+  version "1.25.0"
+  resolved "https://registry.yarnpkg.com/@ag.ds-next/react/-/react-1.25.0.tgz#db6db3d4f2d3a9b60f9675ff6d90da67fd467841"
+  integrity sha512-LYeZYzTNpLh2XP8pi9Om8BsVQBkTYSLNlLIzzUcRXG/lCvdh1fZS9OBoZNEcB/Uji8WDXKhJhHvPLIbiVHPh7w==
   dependencies:
     "@babel/runtime" "^7.4.5"
     "@floating-ui/react-dom" "^2.0.8"
     "@react-spring/web" "^9.4.5"
     date-fns "^2.28.0"
-    downshift "^8.1.0"
+    downshift "^9.0.8"
     react-day-picker "^8.10.0"
     react-dropzone "^14.2.3"
     react-focus-lock "^2.9.6"
@@ -874,7 +874,7 @@
     "@babel/plugin-transform-modules-commonjs" "^7.25.9"
     "@babel/plugin-transform-typescript" "^7.25.9"
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.12.13", "@babel/runtime@^7.12.5", "@babel/runtime@^7.17.8", "@babel/runtime@^7.18.3", "@babel/runtime@^7.21.0", "@babel/runtime@^7.22.15", "@babel/runtime@^7.24.4", "@babel/runtime@^7.4.5", "@babel/runtime@^7.8.4":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.12.13", "@babel/runtime@^7.12.5", "@babel/runtime@^7.17.8", "@babel/runtime@^7.18.3", "@babel/runtime@^7.21.0", "@babel/runtime@^7.24.4", "@babel/runtime@^7.24.5", "@babel/runtime@^7.4.5", "@babel/runtime@^7.8.4":
   version "7.26.0"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.26.0.tgz#8600c2f595f277c60815256418b85356a65173c1"
   integrity sha512-FDSOghenHTiToteC/QRlv2q3DhPZ/oOXTBoirfWNx1Cx3TMVcGWQtMMmQcSvb/JjpNeGzx8Pq/b4fKEJuWm1sw==
@@ -973,7 +973,7 @@
   resolved "https://registry.yarnpkg.com/@emotion/memoize/-/memoize-0.9.0.tgz#745969d649977776b43fc7648c556aaa462b4102"
   integrity sha512-30FAj7/EoJ5mwVPOWhAyCX+FPfMDrVecJAM+Iw9NRoSl4BBAQeqj4cApHHUXOVvIPgLVDsCFoz/hGD+5QQD1GQ==
 
-"@emotion/react@^11.8.2":
+"@emotion/react@^11.13.5":
   version "11.13.5"
   resolved "https://registry.yarnpkg.com/@emotion/react/-/react-11.13.5.tgz#fc818ff5b13424f86501ba4d0740f343ae20b8d9"
   integrity sha512-6zeCUxUH+EPF1s+YF/2hPVODeV/7V07YU5x+2tfuRL8MdW6rv5vb2+CBEGTGwBdux0OIERcOS+RzxeK80k2DsQ==
@@ -3038,7 +3038,7 @@ commondir@^1.0.1:
   resolved "https://registry.yarnpkg.com/commondir/-/commondir-1.0.1.tgz#ddd800da0c66127393cca5950ea968a3aaf1253b"
   integrity sha512-W9pAhw0ja1Edb5GVdIF1mjZw/ASI0AlShXM83UUGe2DVr5TdAPEA1OA8m/g8zWp9x6On7gqufY+FatDbC3MDQg==
 
-compute-scroll-into-view@^3.0.3:
+compute-scroll-into-view@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/compute-scroll-into-view/-/compute-scroll-into-view-3.1.0.tgz#753f11d972596558d8fe7c6bcbc8497690ab4c87"
   integrity sha512-rj8l8pD4bJ1nx+dAkMhV1xB5RuZEyVysfxJqB1pRchh1KVvwOv9b7CGB8ZfjTImVv2oF+sYMUkMZq6Na5Ftmbg==
@@ -3445,15 +3445,15 @@ dot-case@^3.0.4:
     no-case "^3.0.4"
     tslib "^2.0.3"
 
-downshift@^8.1.0:
-  version "8.5.0"
-  resolved "https://registry.yarnpkg.com/downshift/-/downshift-8.5.0.tgz#480a3f59f03a2940947a2ea7c5cccf6c5b8e2a9b"
-  integrity sha512-BAr/KAZX8GGARwWl4aER6ABv8aAaRXZcVKP0m1oFPKpSIXCGuoqnhi6nRf87glHhYDd/CCPp9RVUK27JKJD/Fw==
+downshift@^9.0.8:
+  version "9.0.8"
+  resolved "https://registry.yarnpkg.com/downshift/-/downshift-9.0.8.tgz#a7fea7c522e31d72ccee7947fa8069ec5e7c30fb"
+  integrity sha512-59BWD7+hSUQIM1DeNPLirNNnZIO9qMdIK5GQ/Uo8q34gT4B78RBlb9dhzgnh0HfQTJj4T/JKYD8KoLAlMWnTsA==
   dependencies:
-    "@babel/runtime" "^7.22.15"
-    compute-scroll-into-view "^3.0.3"
+    "@babel/runtime" "^7.24.5"
+    compute-scroll-into-view "^3.1.0"
     prop-types "^15.8.1"
-    react-is "^18.2.0"
+    react-is "18.2.0"
     tslib "^2.6.2"
 
 electron-to-chromium@^1.5.41:
@@ -5838,6 +5838,11 @@ react-focus-lock@^2.9.6:
     react-clientside-effect "^1.2.6"
     use-callback-ref "^1.3.2"
     use-sidecar "^1.1.2"
+
+react-is@18.2.0:
+  version "18.2.0"
+  resolved "https://registry.yarnpkg.com/react-is/-/react-is-18.2.0.tgz#199431eeaaa2e09f86427efbb4f1473edb47609b"
+  integrity sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==
 
 react-is@^16.13.1, react-is@^16.7.0:
   version "16.13.1"

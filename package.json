@@ -14,8 +14,8 @@
 		"format": "prettier --write \"**/*.{js,jsx,json,ts,tsx,md,mdx}\""
 	},
 	"dependencies": {
-		"@ag.ds-next/react": "^1.7.0",
-		"@emotion/react": "^11.8.2",
+		"@ag.ds-next/react": "^1.25.0",
+		"@emotion/react": "^11.13.5",
 		"facepaint": "^1.2.1",
 		"next": "^15.0.4",
 		"react": "^19.0.0",
