@@ -12,10 +12,10 @@
 		"moduleResolution": "node",
 		"resolveJsonModule": true,
 		"isolatedModules": true,
-		"incremental": true,
 		"jsx": "preserve",
-		"jsxImportSource": "@emotion/react"
+		"jsxImportSource": "@emotion/react",
+		"incremental": true
 	},
-	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".storybook/preview.tsx"],
 	"exclude": ["node_modules"]
 }
