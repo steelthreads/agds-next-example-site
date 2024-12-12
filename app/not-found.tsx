@@ -1,3 +1,5 @@
+'use client';
+
 import { H1 } from '@ag.ds-next/react/heading';
 import { Text } from '@ag.ds-next/react/text';
 import { PageContent } from '@ag.ds-next/react/content';

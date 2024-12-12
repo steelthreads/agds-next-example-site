@@ -1,3 +1,5 @@
+'use client';
+
 import { Box } from '@ag.ds-next/react/box';
 import { Footer, FooterDivider } from '@ag.ds-next/react/footer';
 import { LinkList } from '@ag.ds-next/react/link-list';

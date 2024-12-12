@@ -1,13 +1,16 @@
-import { useRouter } from 'next/router';
+'use client';
+
+import { usePathname } from 'next/navigation';
 import { Logo } from '@ag.ds-next/react/ag-branding';
-import { Stack } from '@ag.ds-next/react/box';
+import { Stack } from '@ag.ds-next/react/stack';
 import { Header } from '@ag.ds-next/react/header';
 import { MainNav } from '@ag.ds-next/react/main-nav';
 
 const NAV_LINKS = [{ label: 'Home', href: '/' }];
 
 export const SiteHeader = () => {
-	const router = useRouter();
+	const pathname = usePathname();
+
 	return (
 		<Stack palette="dark">
 			<Header
@@ -20,7 +23,7 @@ export const SiteHeader = () => {
 			<MainNav
 				id="main-nav"
 				items={NAV_LINKS}
-				activePath={router.asPath}
+				activePath={pathname}
 				secondaryItems={[
 					{
 						label: 'Github',

@@ -14,8 +14,19 @@
 		"isolatedModules": true,
 		"jsx": "preserve",
 		"jsxImportSource": "@emotion/react",
-		"incremental": true
+		"incremental": true,
+		"plugins": [
+			{
+				"name": "next"
+			}
+		]
 	},
-	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".storybook/preview.tsx"],
+	"include": [
+		"**/*.ts",
+		"**/*.tsx",
+		".storybook/preview.tsx",
+		"next-env.d.ts",
+		".next/types/**/*.ts"
+	],
 	"exclude": ["node_modules"]
 }
