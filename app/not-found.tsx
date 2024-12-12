@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 	description: 'This page does not exist',
 };
 
-function NotFoundPage() {
+export default function NotFoundPage() {
 	return (
 		<>
 			<H1>Error 404</H1>
@@ -15,5 +15,3 @@ function NotFoundPage() {
 		</>
 	);
 }
-
-export default NotFoundPage;

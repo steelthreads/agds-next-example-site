@@ -1,5 +1,5 @@
 import { JSX } from 'react';
-import { AgDsWrapper } from './AgDsWrapper';
+import { AgDSWrapper } from './AgDSWrapper';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -11,7 +11,7 @@ export default function Layout({ children }: { children: JSX.Element }) {
 	return (
 		<html lang="en">
 			<body>
-				<AgDsWrapper>{children}</AgDsWrapper>
+				<AgDSWrapper>{children}</AgDSWrapper>
 			</body>
 		</html>
 	);
