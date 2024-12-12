@@ -1,5 +1,3 @@
-'use client';
-
 import { Prose } from '@ag.ds-next/react/prose';
 
 export default function NotFoundPage() {

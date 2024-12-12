@@ -1,21 +1,17 @@
-'use client';
-
 import { H1 } from '@ag.ds-next/react/heading';
 import { Text } from '@ag.ds-next/react/text';
-import { PageContent } from '@ag.ds-next/react/content';
-import { AppLayout } from '../components/AppLayout';
-import { DocumentTitle } from '../components/DocumentTitle';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+	title: 'Page not found | Agriculture Design System',
+	description: 'This page does not exist',
+};
 
 function NotFoundPage() {
 	return (
 		<>
-			<DocumentTitle title="Error 404" />
-			<AppLayout>
-				<PageContent>
-					<H1>Error 404</H1>
-					<Text as="p">We could not find this page.</Text>
-				</PageContent>
-			</AppLayout>
+			<H1>Error 404</H1>
+			<Text as="p">We could not find this page.</Text>
 		</>
 	);
 }

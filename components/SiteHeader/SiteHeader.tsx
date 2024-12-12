@@ -1,5 +1,3 @@
-'use client';
-
 import { usePathname } from 'next/navigation';
 import { Logo } from '@ag.ds-next/react/ag-branding';
 import { Stack } from '@ag.ds-next/react/stack';

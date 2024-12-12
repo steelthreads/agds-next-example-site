@@ -1,5 +1,3 @@
-'use client';
-
 import { PageContent } from '@ag.ds-next/react/content';
 import { Prose } from '@ag.ds-next/react/prose';
 import { AppLayout } from '../AppLayout';

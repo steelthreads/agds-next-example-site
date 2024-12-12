@@ -1,5 +1,3 @@
-'use client';
-
 import { ReactNode } from 'react';
 import { Box } from '@ag.ds-next/react/box';
 import { Flex } from '@ag.ds-next/react/flex';
