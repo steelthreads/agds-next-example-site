@@ -1,6 +1,7 @@
 import { JSX } from 'react';
 import { AgDSWrapper } from './AgDSWrapper';
 import { Metadata } from 'next';
+import { RootStyleRegistry } from './RootStyleRegistry';
 
 export const metadata: Metadata = {
 	title: 'Home | Agriculture Design System',
@@ -11,7 +12,9 @@ export default function Layout({ children }: { children: JSX.Element }) {
 	return (
 		<html lang="en">
 			<body>
-				<AgDSWrapper>{children}</AgDSWrapper>
+				<RootStyleRegistry>
+					<AgDSWrapper>{children}</AgDSWrapper>
+				</RootStyleRegistry>
 			</body>
 		</html>
 	);
